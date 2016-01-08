@@ -4,5 +4,5 @@ Spring - Apache Shiro template
 Compile first:
     mvn clean package
 
-Run next (runs on port 8080):
+Run (port 8000):
     mvn jetty:run
