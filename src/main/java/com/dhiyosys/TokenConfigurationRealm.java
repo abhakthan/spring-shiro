@@ -1,7 +1,7 @@
 /**
  * 
  */
-package gov.uspto.gd;
+package com.dhiyosys;
 
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;

@@ -8,7 +8,7 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<bean id="tokenFilter" class="gov.uspto.gd.TokenAuthenticationFilter" />
+	<bean id="tokenFilter" class="com.dhiyosys.TokenAuthenticationFilter" />
 
 	<bean id="casFilter" class="org.apache.shiro.cas.CasFilter" />
 
@@ -57,7 +57,7 @@
 		class="org.apache.shiro.authc.credential.Sha256CredentialsMatcher">
 	</bean>
 
-	<bean id="realm" class="gov.uspto.gd.TokenConfigurationRealm">
+	<bean id="realm" class="com.dhiyosys.TokenConfigurationRealm">
 		<property name="credentialsMatcher" ref="sha256Matcher" />
 		<property name="userDefinitions">
 			<value>
