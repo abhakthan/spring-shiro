@@ -26,15 +26,17 @@
 		<!-- <property name="filters"> <util:map> <entry key="anAlias" value-ref="someFilter"/> 
 			</util:map> </property> -->
 		<property name="filterChainDefinitions">
-<!-- 			<value>
+            <value>
 				/login = tokenFilter
 				/logout = logout
 				/* = tokenFilter
-			</value> -->
+			</value>
+<!--
 			<value>
 				/logout = logout
 				/* = casFilter
 			</value>
+-->
 		</property>
 		<property name="loginUrl" value="/login.jsp" />
 	</bean>
